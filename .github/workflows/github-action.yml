@@ -1,0 +1,10 @@
+name: git-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting,
+        run: echo "Hello World"
+      - name: final goodbye,
+        run: :echo "Goodbye"
